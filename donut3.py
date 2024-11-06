@@ -113,3 +113,30 @@ while run:
         pygame.display.update()
 
         hue += 0.009
+"""
+This script creates a rotating 3D donut animation using Pygame.
+Modules:
+    - pygame: Used for creating the graphical display and handling events.
+    - math: Provides mathematical functions.
+    - colorsys: Used for converting HSV color values to RGB.
+Constants:
+    - black: RGB value for the color black.
+    - hue: Initial hue value for HSV color conversion.
+    - WIDTH: Width of the display window.
+    - HEIGHT: Height of the display window.
+    - x_start, y_start: Starting coordinates for text display.
+    - x_separator, y_separator: Separators for the grid layout.
+    - rows, columns: Number of rows and columns in the grid.
+    - screen_size: Total number of grid cells.
+    - x_offset, y_offset: Offsets for centering the donut.
+    - A, B: Rotation angles.
+    - theta_spacing, phi_spacing: Spacing for theta and phi angles.
+    - chars: Characters used for rendering the donut.
+Functions:
+    - hsv2rgb(h, s, v): Converts HSV color values to RGB.
+    - text_display(letter, x_start, y_start): Renders a letter at the specified coordinates.
+Main Loop:
+    - Handles events such as quitting the application and pausing the animation.
+    - Updates the display with the rotating donut animation.
+    - Adjusts the hue for color cycling.
+"""

@@ -30,9 +30,9 @@ def dechiffrer_fichier(nom_fichier_chiffre, cle):
 
 if __name__ == "__main__":
     cle = generer_cle()  
-    fichier_original = 'mon_fichier.txt'
+    fichier_original = 'mon_fichier.txt' """fichier d'entrée"""
 
     chiffrer_fichier(fichier_original, cle) 
-    fichier_chiffre = 'mon_fichier.txt.encrypted'
+    fichier_chiffre = 'mon_fichier.txt.encrypted' """fichier chiffré en sortie"""
 
-    dechiffrer_fichier(fichier_chiffre, cle)  
+    dechiffrer_fichier(fichier_chiffre, cle)
